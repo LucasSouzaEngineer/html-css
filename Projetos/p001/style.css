@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Trispace:wght@100;200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor0: #fafac8b4;
+    --cor1: #FFFF56;
+    --cor2: #FFFF00;
+    --cor3: #E3E500;
+    --cor4: #C7CC00;
+
+    --fonte-logo: Trispace, times, serif;
+    --fonte-padrao: arial, helvetica, sans-serif;
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor0), var(--cor1));
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+    font-family: var(--fonte-logo);
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px black;
+}
+
+nav{
+    background-color: var(--cor1);
+}
+
+nav a{
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    text-decoration: none;
+    font-family: var(--fonte-padrao);
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition-duration: 0.25s;
+}
+
+nav a:hover{
+    background-color: var(--cor2);
+}
+

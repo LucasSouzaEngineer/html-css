@@ -53,6 +53,7 @@ main section#imagem01{
     color: white;
     background-size: cover;
     background-attachment: fixed;
+    background-position: center top;
 }
 
 main section#imagem02{
@@ -61,6 +62,7 @@ main section#imagem02{
     color: white;
     background-size: cover;
     background-attachment: fixed;
+    background-position: center top;
 }
 
 main p.caixa-imagem{
